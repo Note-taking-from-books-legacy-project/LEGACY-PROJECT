@@ -1,0 +1,81 @@
+.accordionSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 30vh;
+    background:#fff;
+    margin-left: 10%;
+    margin-bottom: 20px;
+}
+
+.container{
+    position: absolute;
+    top:50%
+}
+
+.wrap{
+    background: rgba(0, 0, 255, 0.854);
+    color:#fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    text-align: center;
+    cursor: pointer;
+}
+
+span{
+    width: 40px;
+    height: 40px;
+    margin-right: 1.5rem;
+}
+.dropDown{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background:#1c1c1c;
+    color: #00ffb9;
+    border-bottom: 1px solid #00ffb9;
+    border-top: 1px solid #00ffb9;
+    
+    
+}
+
+
+
+.btn{
+    background-color: #1976d2;
+    color: white;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+    padding: 6px 16px;
+    border-radius: 4px;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: blue;
+}
+
+.main{
+    display: flex;
+    margin-bottom: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 50%;
+
+}
